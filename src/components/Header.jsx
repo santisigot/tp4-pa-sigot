@@ -1,6 +1,9 @@
 export const Header = () => {
     return (
-        <h1 className="bg-gray-400 p-11 rounded w-100% h-36 font-black text-5xl text-center">
-        Requerimientos de {""} <span className="text-red-600">Software</span></h1>
+        <header className="bg-gray-500 p-8 md:p-10 rounded-lg w-full h-36 flex items-center justify-center shadow-md">
+            <h1 className="font-bold text-4xl md:text-5xl text-center text-white">
+                Requerimientos de <span className="text-blue-300">Software</span>
+            </h1>
+        </header>
     )
 }
